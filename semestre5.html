@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Semestre 5</title>
+    <link rel="shortcut icon" href="IMG/Favicoon.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="semestre1.html">Semestre 1</a>
+            <a href="semestre2.html">Semestre 2</a>
+            <a href="semestre3.html">Semestre 3</a>
+            <a href="semestre4.html">Semestre 4</a>
+            <a href="semestre5.html">Semestre 5</a>
+        </nav>
+
+        <section class="textos-header">
+            <h1>Loock-Home</h1>
+            <h2>Seguridad y confianza</h2>
+            <h1>Semestre 5</h1>
+        </section>
+
+        <div class="wave" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- AVANCES DEL SEMESTRE -->
+
+        <section class="about-services">
+            <div class="contenedor">
+
+                <h2 class="titulo">Avances para este semestre</h2>
+
+                <div class="servicio-cont">
+
+                    <!-- BLOQUE 1 -->
+                    <div class="servicio-ind">
+                        <img src="img/Avance5to1.png" alt="">
+
+                        <h3>Avance del proyecto Loock-Home</h3>
+
+                        <p>
+                            Durante el quinto semestre se ha avanzado significativamente en el desarrollo del proyecto Loock-Home, enfocándonos principalmente en la integración de los componentes electrónicos, la programación del microcontrolador ESP32 y la comunicación entre el sistema físico y una plataforma web. En esta etapa buscamos que la maqueta no solamente permita demostrar el funcionamiento de los sensores y actuadores, sino que también pueda transmitir información y recibir instrucciones desde una interfaz digital. De esta manera, continuamos fortaleciendo la propuesta de domótica, orientada a mejorar la seguridad, el monitoreo y el control de diferentes funciones del hogar.
+                        </p>
+                    </div>
+
+                    <!-- BLOQUE 2 -->
+                    <div class="servicio-ind">
+                        <img src="img/Avance5to2.png" alt="">
+
+                        <h3>Desarrollo e implementación del sistema</h3>
+
+                        <p>
+                            Durante esta etapa se ha trabajado en la integración de los diferentes elementos que conforman el sistema Loock-Home, utilizando una ESP32 como unidad principal de procesamiento. Se han realizado pruebas individuales y de integración con los sensores, módulos de relé y dispositivos de salida, buscando establecer una comunicación funcional entre los componentes físicos y la plataforma de supervisión.
+                        </p>
+
+                        <br>
+
+                        <h3>Implementación de hardware</h3>
+
+                        <p>
+                            Para la implementación física se está utilizando una tarjeta ESP32 DevKit V1, encargada de recibir las señales de los sensores y controlar los actuadores del sistema. Se incorporaron sensores infrarrojos (IR) para la detección de presencia u objetos en diferentes zonas, un sensor DHT11 para medir la temperatura y humedad del ambiente, y un sensor MQ-6 para la detección de gases. También se implementaron módulos de relé para controlar las salidas eléctricas correspondientes a la iluminación, ventilación y extracción. Cada componente se ha sometido a pruebas de conexión y funcionamiento para verificar su correcta integración.
+                        </p>
+
+                        <br>
+
+                        <h3>Desarrollo de software</h3>
+
+                        <p>
+                            En la parte de programación se desarrolló un código para la ESP32 utilizando el entorno Arduino IDE y el lenguaje C++. Se configuraron las entradas de los sensores y las salidas destinadas al control de los relés, estableciendo condiciones automáticas de funcionamiento. Los sensores infrarrojos permiten controlar individualmente tres puntos de iluminación, mientras que el sensor DHT11 permite activar un ventilador cuando la temperatura alcanza los 30 °C y desactivarlo cuando desciende a 28 °C. Por otra parte, el sensor MQ-6 se utiliza para detectar la presencia de gases y activar el sistema de extracción mediante un relé.
+                        </p>
+
+                        <br>
+
+                        <h3>Comunicación y monitoreo</h3>
+
+                        <p>
+                            Uno de los avances más importantes de este semestre ha sido la implementación de la comunicación Wi-Fi entre la ESP32 y un servidor local desarrollado mediante XAMPP. Para ello se utiliza el protocolo HTTP, mediante solicitudes POST que permiten enviar información en formato JSON desde el microcontrolador hacia el servidor. También se ha trabajado con PHP para recibir y procesar los datos, junto con MariaDB como sistema de gestión de bases de datos. Adicionalmente, se está desarrollando una interfaz web que permitirá visualizar los estados de los sensores y realizar el control de los actuadores desde un dispositivo conectado a la misma red.
+                        </p>
+                    </div>
+
+                    <!-- BLOQUE 3 -->
+                    <div class="servicio-ind">
+                        <img src="img/Avance5to3.png" alt="">
+
+                        <h3>Meta del semestre</h3>
+
+                        <p>
+                            La meta principal del quinto semestre es lograr una mayor integración entre el hardware y el software del proyecto Loock-Home, permitiendo que los sensores y actuadores trabajen de manera coordinada y que la información recopilada por la ESP32 pueda visualizarse desde una plataforma web. Se busca obtener un prototipo funcional que demuestre la automatización de la iluminación, el control de la temperatura, la detección de gases y la comunicación entre el sistema físico y el usuario, sentando las bases para continuar con el desarrollo del proyecto en los siguientes semestres.
+                        </p>
+                        <br>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- NUEVA VERSION DE MAQUETA -->
+
+        <section class="contenedor sobre-nosotros">
+
+            <h2 class="titulo">Nueva versión de maqueta</h2>
+
+            <div class="contenedor-sobre-nosotros">
+
+                <img src="IMG/maqueta5.png" alt="" class="imagen-about-us">
+
+                <div class="contenido-textos">
+
+                    <h3><span>1</span>Desarrollo de la maqueta</h3>
+
+                    <p>
+                        Durante este semestre se ha continuado trabajando en la evolución física de la maqueta de Loock-Home, enfocándonos en la organización de los componentes electrónicos, la distribución de los sensores y actuadores y la implementación de los circuitos de control. Se busca mejorar la presentación y funcionalidad del prototipo, integrando los diferentes sistemas de automatización en una estructura que represente las condiciones de una vivienda real. Además, se ha trabajado en el diseño de una tarjeta electrónica PCB para organizar las conexiones y facilitar el montaje de los componentes.
+                    </p>
+
+                    <br>
+
+                    <h3><span>2</span>Integración de componentes</h3>
+
+                    <p>
+                        La integración de los componentes se realiza mediante la ESP32 DevKit V1, que funciona como unidad central de control. En esta versión se busca conectar los sensores infrarrojos, el DHT11 y el MQ-6 con los respectivos módulos de relé. Cada entrada y salida se encuentra organizada de acuerdo con la función que cumple dentro del sistema. También se realizan pruebas en protoboard y sobre el diseño de la PCB para comprobar las conexiones, verificar las señales recibidas y garantizar el funcionamiento adecuado de los actuadores.
+                    </p>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- DOCUMENTACION DEL SEMESTRE -->
+
+        <section class="contenedor documentosimulacion">
+
+            <h2 class="titulo">Documentación del semestre</h2>
+
+            <embed src="DOCUMENTOS/documento5to.pdf"
+                width="85%"
+                height="630px">
+
+        </section>
+
+
+        <!-- VIDEO SPEECH -->
+
+        <section class="video speech">
+
+            <h2 class="titulo">Speech 5</h2>
+
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/ID_DEL_VIDEO"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            </iframe>
+
+            <h3><span></span>Link Speech</h3>
+
+            <p>https://youtube.com/shorts/Lg93ceYhWXs?si=z74WgQFTubxxS_q6</p>
+
+            <a href="https://youtube.com/shorts/Lg93ceYhWXs?si=z74WgQFTubxxS_q6">
+                Ver Speech del quinto semestre
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PAGINA -->
+
+    <footer>
+
+        <div class="contenedor-footer">
+
+            <div class="content-foo">
+                <h4>Integrantes</h4>
+                <p>Dary Osorio</p>
+                <p>William Castro</p>
+                <p>Cristian Rodriguez</p>
+            </div>
+
+            <div class="content-foo">
+                <h4>Programa</h4>
+                <p>Tecnología Automatización Industrial</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
